@@ -1,0 +1,15 @@
+@media (max-width: 450px) {
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+input{
+    width: 75%;
+}
+
+.side-art{
+    flex: 1 1.5 auto;
+}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="side-art"></div>
+
+    <div class="main-content">
+        <div class="description">
+            <h1>Sign Up</h1>
+            <p>You know what to do.</p>
+        </div>
+        <div class="form">
+            <form action="#" method="get">
+                <div class="form-left">
+
+                <label  for="first-name">First Name*</label>
+                <input tabindex="1" type="text" id="first-name" placeholder="John" required>
+
+                <label for="email">E-Mail*</label>
+                <input tabindex="3" type="email" id="email" placeholder="You@Domain.com" required>
+
+                <label for="password">Password*</label>
+                <input tabindex="5" class="error" type="password" id="password" placeholder="Minimum 6 Characters" minlength="6" required>
+                </div>
+                
+
+                <div class="form-right">
+                <label  for="last-name">Last Name</label>
+                <input tabindex="2" type="text" id="last-name" placeholder="Smith">
+
+                <label for="phone-number">Phone Number</label>
+                <input tabindex="4" type="tel" id="phone-number" placeholder="123-456-789" maxlength="9">
+
+                <label for="confirm-password">Confirm Password*</label>
+                <input class="error" type="password" id="confirm-password" placeholder="Re-enter Password" required>
+                </div>
+
+
+            </div>
+            <div class="send-info">
+
+                <button id="submit" type="submit">Create Account</button>
+                <div class="have-account"><p>Already have an Account? <a href="#">Log In</a></p></div>
+
+                <a target="_blank" href="http://github.com/TahaJumaah">
+                    <img  src="github.svg" alt="">
+                </a>
+                
+
+
+            </div>
+
+        </div>
+            </form>
+       
+
+</body>
+</html>
